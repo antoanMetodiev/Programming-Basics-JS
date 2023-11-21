@@ -4,4 +4,4 @@ function square(input) {
     console.log(result)
 }
 
-square(["5"]);
+square();
