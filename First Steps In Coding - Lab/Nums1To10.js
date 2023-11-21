@@ -4,4 +4,4 @@ function printNums() {
      }
 }
 
-printNums(); // Стартер
+printNums();
