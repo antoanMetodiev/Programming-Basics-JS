@@ -4,4 +4,4 @@ function printInchesToCentimeters(input) {
     console.log(centimeters);
 }
 
-printInchesToCentimeters(["7"]);
+printInchesToCentimeters();
