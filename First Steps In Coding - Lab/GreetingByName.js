@@ -3,4 +3,4 @@ function greetingByName(input) {
     console.log(`Hello,  ${name}!`);
 }
 
-greetingByName(["Antoan"])
+greetingByName()
