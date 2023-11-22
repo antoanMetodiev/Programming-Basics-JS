@@ -1,4 +1,4 @@
-function YardGreening(input){
+function YardGreening(input) {
     let greeningMeters = Number(input[0]);
     let priceForWholeGarden = greeningMeters * 7.61;
     let discount = priceForWholeGarden * 0.18;
