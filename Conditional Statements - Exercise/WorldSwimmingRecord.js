@@ -1,7 +1,7 @@
 function WorldSwimmingRecord(input) {
-    let recordInSeconds = Number(input[0]);   // Рекорда на другия
-    let distanceInMeters = Number(input[1]);      // Което той трябва да преплува
-    let timeInSecondsForMeter = Number(input[2]); // Времето(в секунди) в което плува 1 метър
+    let recordInSeconds = Number(input[0]);   
+    let distanceInMeters = Number(input[1]);      
+    let timeInSecondsForMeter = Number(input[2]); 
 
     let totalTimeInSeconds = timeInSecondsForMeter * distanceInMeters;
     let additionalLateInSeconds = (Math.floor(distanceInMeters / 15)) * 12.5;
