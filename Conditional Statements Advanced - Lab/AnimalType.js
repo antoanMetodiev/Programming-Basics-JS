@@ -1,6 +1,5 @@
 function animalType(input) {
     let animal = input[0];
-
     switch (animal) {
         case "dog":
             console.log("mammal");
@@ -13,7 +12,6 @@ function animalType(input) {
         default:
             console.log("unknown");
             break;
-
     }
 }
 
