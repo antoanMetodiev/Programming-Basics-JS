@@ -2,7 +2,6 @@ function vowelsSum(input) {
     let word = input[0];
     let sum = 0;
     for (let i = 0; i < word.length; i++) {
-
         let letter = word[i];
         switch (letter) {
             case "a":
@@ -20,7 +19,6 @@ function vowelsSum(input) {
             case "u":
                 sum += 5;
                 break;
-
         }
     }
     console.log(sum);
