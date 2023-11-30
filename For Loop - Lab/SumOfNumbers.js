@@ -1,6 +1,5 @@
 function sumOfNumbers(input) {
     let number = input[0];
-
     let digitsSum = 0;
     for (let i = 0; i < number.length; i++) {
         let digit = Number(number[i]);
