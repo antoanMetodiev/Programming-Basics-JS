@@ -9,7 +9,6 @@ function password(input) {
         indexCounter++;
         tryPassword	= input[indexCounter];
     }
-
     if (isTrue || tryPassword === password) {
         console.log(`Welcome ${name}!`);
     }
