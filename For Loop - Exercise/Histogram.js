@@ -6,12 +6,10 @@ function histogram(input) {
     let between400And599 = 0;
     let between600And799 = 0;
     let biggerOrEqualThan800 = 0;
-
     let allNumbersCount = 0;
     for (let i = 1; i <= n; i++) {
 
         let number = Number(input[i]);
-
         allNumbersCount++;
         if (number < 200) {
             smallerThan200++;
