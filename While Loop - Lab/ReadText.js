@@ -1,5 +1,4 @@
 function readText(input) {
-
     let word = input[0];
     let indexCounter = 0;
     while (!(word === "Stop")) {
