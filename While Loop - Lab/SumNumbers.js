@@ -1,6 +1,5 @@
 function sumNumbers(input) {
     let theNumber = Number(input[0]);
-
     let sum = 0;
     let index = 0;
     while (sum < theNumber) {
