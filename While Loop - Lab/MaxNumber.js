@@ -1,6 +1,5 @@
 function maxNumber(input) {
     let number = input[0];
-
     let maxNumber = -100000000000;
     let index = 0;
     while (!(number === "Stop")) {
