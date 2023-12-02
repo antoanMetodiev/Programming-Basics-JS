@@ -1,6 +1,5 @@
 function minNumber(input) {
     let number = input[0];
-
     let minNumber = 100000000000;
     let index = 0;
     while (!(number === "Stop")) {
