@@ -12,7 +12,6 @@ function toyShop(input) {
     let bearsPrice = bearsCount * 4.10;
     let minionsPrice = minionsCount * 8.20;
     let trucksPrice = trucksCount * 2;
-    
     let totalPrice = puzzlesPrice + doysPrice + bearsPrice + minionsPrice + trucksPrice;
 
     let totalCount = puzzlesCount + doysCount + bearsCount + minionsCount + trucksCount;
